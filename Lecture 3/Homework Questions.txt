@@ -1,0 +1,19 @@
+EXERCISE QUESTIONS 
+
+1) Write a Program to cast float data into int using the cast operator.
+
+2) Write a Program to cast double data into int using the cast operator. 
+
+3) Given are the marks a student has scored in his/her hsc exams
+	88, 83,76, 96, 93
+	
+	Below is the formula to use to find result-
+	result = (sum of marks)/500
+
+	Determine the result on a scale of 0 - 1. (For example - 0.6512)
+
+4) Given below are the prices of medicine a person purchase from a pharmacy
+	88.43, 46.59, 13.50, 72.49, 77.73
+
+	Determine how much money is he ought to pay to the shop.  
+

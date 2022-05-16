@@ -1,0 +1,89 @@
+1) HANDS ON PRACTICE ON HOW TO CODE ON VS CODE
+--> 1.1) BEST PRACTICE IS TO ALWAYS OPEN VS CODE FROM THE FOLDER WHERE YOU
+	     ARE GOING TO SAVE YOUR CODE FILE.
+		TO ACHIEVE THAT
+		|
+		|
+		----> OPTION 1) OPEN YOUR INTENDED FOLDER WHERE YOU WANT TO 
+				CODE --> RIGHT CLICK --> CLICK ON OPEN WITH VS CODE
+		      OPTION 2) OPEN YOUR INTENDED FOLDER WHERE YOU WANT TO
+				CODE --> DELETE FOLDER PATH ADDRESS & TYPE CMD 
+				     --> INSIDE COMMAND PROMPT TYPE CODE .   
+    
+--> 1.2) HOW TO WRITE CODE AND EXECUTE IN VS CODE.
+
+2) TYPE CONVERSION
+
+Type casting is a way of converting data from one data type to another data 
+type. This process of data conversion is also known as type conversion or 
+type coercion.
+
+Note: type casting is not possible for a Boolean data type.
+
+There are 2 types of type conversion.
+1) Implicit Type Conversion
+2) Explicit Type Conversion
+
+Implicit Type Conversion :-
+
+This type of conversion is also known as widening casting. It happens 
+automatically when converting from a narrower range data type to a wider 
+range data type. It also means converting a lower data type like an int to a 
+higher data type like a double. This type of conversion is automatically done
+by the compiler. data type is automatically upgraded to the largest type 
+without losing any information.
+
+Implicit casting follows the order of conversion as shown below:
+
+Byte -> Short -> Char -> Int -> Long -> Float -> Double 
+
+For example :-
+
+int main()
+{
+  int val = 50;
+
+  double val2= val;
+
+  cout<<val2<<endl;
+
+  cout<<sizeof(val)<<endl;
+  cout<<sizeof(val2);
+  return 0;
+}
+
+Explicit Type Conversion
+
+This type of casting involves assigning a data type of high range to a lower 
+range. This process of conversion is also referred to as narrowing type 
+casting.
+
+This is done manually as you need to do the casting using the “()” operator 
+called as cast operator. If we fail to do the casting, a compile-time error 
+will be returned by the compiler. In this casting, we can upgrade or 
+downgrade the data type of one variable to another in a program.
+
+Explicit casting follows the order of conversion as shown below:
+
+Double -> FLoat -> Long -> Int -> Char -> Short -> Byte
+
+For example :-
+
+int main()
+{
+
+  double d = 57.17;  
+  int i = d; <--- Leads to compilation error
+
+  int i = (int)d; <--- Correct Way
+
+  cout<<d<<endl;
+  cout<<i<<endl;
+  cout<<sizeof(d)<<endl;
+  cout<<sizeof(i);
+
+  return 0;
+}
+
+
+3) GIT SETUP AND HANDS ON COMMANDS PRACTICE ( SHARE GIT CHEATSHEET )
